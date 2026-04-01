@@ -17,6 +17,7 @@ public:
 
 class Doctor : public Staff
 {
+    public:
     void showRole()
     {
         cout << "Doctor treats patients and gives perscriptions." << endl;
